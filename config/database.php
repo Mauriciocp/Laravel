@@ -51,7 +51,7 @@ return [
         'mysql' => [
             'driver'    => 'mysql',
             'host'      => env('DB_HOST', 'localhost'),
-            'unix_socket'    =>  '/Applications/MAMP/tmp/mysql/mysql.sock' ,
+            'unix_socket'  =>  '/Applications/MAMP/tmp/mysql/mysql.sock',
             'database'  => env('DB_DATABASE', 'teachme '),
             'username'  => env('DB_USERNAME', 'cladian'),
             'password'  => env('DB_PASSWORD', 'cladian'),
