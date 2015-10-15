@@ -1,10 +1,10 @@
 <?php
 
-namespace App\Entiti;
+namespace TeachMe\Entiti;
 
 use Illuminate\Database\Eloquent\Model;
 
-class TicketVote extends Model
+class Ticket extends Model
 {
     //
 }
